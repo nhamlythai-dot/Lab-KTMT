@@ -26,4 +26,5 @@ skip:
 continue:
 	add s1, s1, s4		# i = i + step
 	jal x0, loop
-endloop:	
+endloop:
+# s5 will store the number with the highest absolute value
