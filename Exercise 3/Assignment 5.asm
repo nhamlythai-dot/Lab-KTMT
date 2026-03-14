@@ -27,3 +27,4 @@ loop:
 	add s1, s1, s4		# i = i + step
 	jal x0, loop		# jump to loop (starts the next loop)
 endloop:
+# s5 will store the sum of the values
