@@ -23,9 +23,9 @@ case_2:
 	add s3, s3, s3		# b = 2 * b
 	jal x0, continue
 default:
-	add s2, s2, s3		# a = a + b
+	add s2, s2, s3		# a = a + b (test if PC jumps to default)
 continue:
-	add s3, s2, s3		# b = a + b
+	add s3, s2, s3		# b = a + b (test if PC jumps to continue)
 
 
 	
