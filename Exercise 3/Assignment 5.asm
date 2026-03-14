@@ -4,7 +4,7 @@
 .text
 	# TODO: Set s2, s3, s4
 	addi s1, zero, 0	# set i = 0
-	la s2, A		# set s2 = address of A[0]w
+	la s2, A		# set s2 = address of A[0]
 	addi s3, zero, 9	# set n = 9 
 	addi s4, zero, 1	# set step = 1
 	add s5, zero, zero	# set sum = 0
